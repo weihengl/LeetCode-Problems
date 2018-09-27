@@ -56,7 +56,7 @@ public class LowestCommonAncestor {
 			pathTop.add(2);
 		if(!foundq)
 			pathToq.add(2);
-		findNode(node.left,p,q,pathTop,pathToq);
+		findNode(node.right,p,q,pathTop,pathToq);
 		if(!foundp)
 			pathTop.remove(pathTop.size()-1);
 		if(!foundq)
