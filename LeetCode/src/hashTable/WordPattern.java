@@ -22,4 +22,10 @@ public class WordPattern {
         }
         return true;
     }
+	
+	public static void main(String[] args) {
+		String a = "null";
+		String b = null;
+		System.out.println(a+b);
+	}
 }

@@ -1,5 +1,5 @@
 package heap;
-
+import java.util.PriorityQueue;
 /*
  * Data Structure Max Heap
  * Max heap is a complete binary tree that parent is bigger than his children
@@ -83,5 +83,10 @@ public class MaxHeap{
             else
             	return;
 		}
+	}
+	
+	public static void main(String[] args) {
+		PriorityQueue<Integer> pq = new PriorityQueue();
+		
 	}
 }
